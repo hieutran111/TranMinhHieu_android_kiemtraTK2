@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/film_container"
+    android:paddingLeft="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvName"
+        android:text="End game"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvCountry"
+        android:text="American"
+        android:layout_below="@id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvPrice"
+        android:text="100000"
+        android:textColor="@color/colorAccent"
+        android:layout_toRightOf="@id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
